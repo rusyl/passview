@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PasscodeView.iml" filepath="$PROJECT_DIR$/.idea/modules/PasscodeView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PasscodeView.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PasscodeView.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/passcodeview/PasscodeView.passcodeview.iml" filepath="$PROJECT_DIR$/.idea/modules/passcodeview/PasscodeView.passcodeview.iml" />
+    </modules>
+  </component>
+</project>
