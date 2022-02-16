@@ -10,15 +10,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5144267-89a5-4d0f-9354-672d2f923a52" name="Default Changelist" comment="1.0.19">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/passcodeview/PasscodeView.passcodeview.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/passcodeview/PasscodeView.passcodeview.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/passcodeview/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/passcodeview/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passcodeview/src/main/java/com/nashfeatures/passcodeview/PasscodeView.java" beforeDir="false" afterPath="$PROJECT_DIR$/passcodeview/src/main/java/com/nashfeatures/passcodeview/PasscodeView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\RUS\.android\avd\Nexus_6_API_30.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Acer\.android\avd\Galaxy_Nexus_API_22.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -37,6 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="android-custom-viewE:/Android Projects/libraries/passview/passcodeview/src/main/java/com/nashfeatures/passcodeview/PasscodeView.java_SELECTED" value="PasscodeView" />
     <property name="android-custom-viewG:/NotelloProject/Features/PasscodeView/passcodeview/src/main/java/com/nash/passcodeview/CircleView.java_CircleView_DIMENSIONS" value="1080&#10;1920" />
     <property name="android-custom-viewG:/NotelloProject/Features/PasscodeView/passcodeview/src/main/java/com/nash/passcodeview/CircleView.java_SELECTED" value="CircleView" />
     <property name="android-custom-viewG:/NotelloProject/Features/PasscodeView/passcodeview/src/main/java/com/nash/passcodeview/PasscodeView.java_PasscodeView_DIMENSIONS" value="1080&#10;1920" />
@@ -46,7 +57,7 @@
     <property name="android-custom-viewG:/NotelloProject/Features/PasscodeView/passcodeview/src/main/java/com/nashfeatures/passcodeview/PasscodeView.java_PasscodeView_DIMENSIONS" value="1080&#10;1920" />
     <property name="android-custom-viewG:/NotelloProject/Features/PasscodeView/passcodeview/src/main/java/com/nashfeatures/passcodeview/PasscodeView.java_SELECTED" value="PasscodeView" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/passcodeview/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />

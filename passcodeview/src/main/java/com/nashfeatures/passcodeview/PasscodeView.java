@@ -21,6 +21,8 @@ import androidx.annotation.IntDef;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+import org.mindrot.jbcrypt.BCrypt;
+
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
@@ -49,6 +51,7 @@ public class PasscodeView extends FrameLayout implements View.OnClickListener {
     private int normalStatusColor = 0xFFFFFFFF;
     private int numberTextColor = 0xFF747474;
     private int passcodeType = PasscodeViewType.TYPE_SET_PASSCODE;
+    private boolean isPasswordEncrypted = false;
 
     public PasscodeView(@NonNull Context context) {
         this(context, null);
@@ -177,16 +180,23 @@ public class PasscodeView extends FrameLayout implements View.OnClickListener {
         return localPasscode;
     }
 
+    public PasscodeView isPasswordEncrypted(boolean isPasswordEncrypted) {
+        this.isPasswordEncrypted = isPasswordEncrypted;
+        return this;
+    }
+
     /**
      * set  localPasscode
      *
      * @param localPasscode the code will to check
      */
     public PasscodeView setLocalPasscode(String localPasscode) {
-        for (int i = 0; i < localPasscode.length(); i++) {
-            char c = localPasscode.charAt(i);
-            if (c < '0' || c > '9') {
-                throw new RuntimeException("must be number digit");
+        if(! this.isPasswordEncrypted) {
+            for (int i = 0; i < localPasscode.length(); i++) {
+                char c = localPasscode.charAt(i);
+                if (c < '0' || c > '9') {
+                    throw new RuntimeException("must be number digit");
+                }
             }
         }
         this.localPasscode = localPasscode;
@@ -335,7 +345,11 @@ public class PasscodeView extends FrameLayout implements View.OnClickListener {
      * @return true if val is right passcode
      */
     protected boolean equals(String val) {
-        return localPasscode.equals(val);
+        if(this.isPasswordEncrypted) {
+            return BCrypt.checkpw(val, localPasscode);
+        } else {
+            return localPasscode.equals(val);
+        }
     }
 
     private void next() {
