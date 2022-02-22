@@ -15,7 +15,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Acer\.android\avd\Galaxy_Nexus_API_22.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\RUS\.android\avd\Pixel_2_API_31.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -43,6 +43,7 @@
     <property name="android-custom-viewG:/NotelloProject/Features/PasscodeView/passcodeview/src/main/java/com/nashfeatures/passcodeview/CircleView.java_SELECTED" value="CircleView" />
     <property name="android-custom-viewG:/NotelloProject/Features/PasscodeView/passcodeview/src/main/java/com/nashfeatures/passcodeview/PasscodeView.java_PasscodeView_DIMENSIONS" value="1080&#10;1920" />
     <property name="android-custom-viewG:/NotelloProject/Features/PasscodeView/passcodeview/src/main/java/com/nashfeatures/passcodeview/PasscodeView.java_SELECTED" value="PasscodeView" />
+    <property name="android-custom-viewG:/RepoProjects/v2/passview/passcodeview/src/main/java/com/nashfeatures/passcodeview/PasscodeView.java_SELECTED" value="PasscodeView" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
