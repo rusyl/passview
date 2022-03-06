@@ -154,6 +154,7 @@
             android:id="@+id/numberOK"
             style="@style/NumberInPasscode"
             android:layout_alignParentLeft="true"
+            android:visibility="gone"
             android:layout_below="@id/number7"
             android:scaleType="centerInside"
             android:tint="#FF8A8A8A"

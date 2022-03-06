@@ -174,7 +174,7 @@ public class PasscodeView extends FrameLayout implements View.OnClickListener {
     public void onClick(View view) {
         int number = (int) view.getTag();
         addChar(number);
-        if(passcodeType == PasscodeViewType.TYPE_CHECK_PASSCODE && layout_psd.getChildCount() == passcodeLength){
+        if(layout_psd.getChildCount() == passcodeLength){
             next();
         }
     }
