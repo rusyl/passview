@@ -35,6 +35,9 @@
       <sourceFolder url="file://$MODULE_DIR$/../../../passcodeview/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../passcodeview/src/main/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../../passcodeview/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../passcodeview/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../passcodeview/build/generated/res/resValues/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../passcodeview/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/../../../passcodeview/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../passcodeview/build" />
     </content>
